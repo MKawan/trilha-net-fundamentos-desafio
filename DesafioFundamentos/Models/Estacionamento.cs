@@ -80,7 +80,7 @@ namespace DesafioFundamentos.Models
             JArray placas = (JArray)jsonObj["data"];
 
             // Critério para encontrar o objeto a ser removido (por exemplo, pelo nome)
-            Console.WriteLine("Digite a placa do veículo para consultar:");
+            Console.WriteLine("Digite a placa do veículo para remover:");
             string placaConsult = Console.ReadLine().ToLower();
             //var consult = JObject.Parse(json);
 
