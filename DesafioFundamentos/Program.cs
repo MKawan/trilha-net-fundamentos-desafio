@@ -25,25 +25,28 @@ while (exibirMenu)
     Console.Clear();
     Console.WriteLine("Digite a sua opção:");
     Console.WriteLine("1 - Cadastrar veículo");
-    Console.WriteLine("2 - Remover veículo");
-    Console.WriteLine("3 - Listar veículos");
-    Console.WriteLine("4 - Encerrar");
+    Console.WriteLine("2 - Consultar veículo");
+    Console.WriteLine("3 - Remover veículo");
+    Console.WriteLine("4 - Listar veículos");
+    Console.WriteLine("5 - Encerrar");
 
     switch (Console.ReadLine())
     {
         case "1":
             es.AdicionarVeiculo();
             break;
-
         case "2":
+            es.ConsultarVeiculo();
+            break;
+        case "3":
             es.RemoverVeiculo();
             break;
 
-        case "3":
+        case "4":
             es.ListarVeiculos();
             break;
 
-        case "4":
+        case "5":
             exibirMenu = false;
             break;
 
