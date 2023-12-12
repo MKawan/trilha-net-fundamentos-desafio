@@ -4,7 +4,7 @@
     <span> Desenvolvendo desafio em Projeto de Estacionamento DotNet</span>
 </h1>
 
-Repositório desenvolvido para fins didáticos, com a disponibilização de materiais de apoio para o lab **Contribuindo um Projeto de Estacionamento Usando DotNet** da [Digital Innovation One](https://www.dio.me/).
+Repositório desenvolvido para fins didáticos, com a disponibilização de materiais **Construindo um Projeto de Estacionamento Usando DotNet** da [Digital Innovation One](https://www.dio.me/).
 
 Neste projeto optei por utilizar um data json um sistema de armazenamento em json que me permite manipular as informações de entrada e sauida em uma simulação de estaionamento.
 
